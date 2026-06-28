@@ -1,0 +1,39 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1aad9a;
+}
+
+.navigation{
+    position: fixed;   /* ou absolute */
+    top: 20px;
+    right: 20px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+.navigation a:hover{
+    color: #00adb5;
+}
+hr{
+    opacity:30%;
+    position: fixed;   /* ou absolute */
+    top: 20px;
+    right: 20px;
+}
+p{font-family:Pacifico;
+}
